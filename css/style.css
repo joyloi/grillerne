@@ -82,6 +82,11 @@ img {
 .main-header {
   padding-top: .5em;
   padding-bottom: .5em;
+	background: #fff;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
 }
 
 .banner,
@@ -92,8 +97,9 @@ img {
 .banner {
 	color: #fff;
 	background: #b85e00;
-  padding: 3.2em 0;
+  padding: 2.2em 0;
   margin-bottom: 60px;
+	position: relative;
 }
 
 .col {
@@ -110,7 +116,12 @@ img {
 /* ---- Page Elements ---- */
 
 .logo {
-	width: 190px;
+	width: 120px;
+	position: absolute;
+	top: -15px;
+	right: 60%;
+	z-index: 20;
+
 }
 
 .headline {
@@ -123,7 +134,11 @@ img {
 
 @media (min-width: 769px) {
 
-  .container {
+	body {
+   padding-top: 68px;
+  }
+
+	.container {
     width: 90%;
     margin: 0 auto;
   }
