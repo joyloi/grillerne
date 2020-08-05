@@ -127,7 +127,6 @@ img {
 	top: -30px;
 	right: 64%;
 	z-index: 20;
-
 }
 
 .headline {
@@ -137,6 +136,29 @@ img {
 /* =================================
   Media Queries
 ==================================== */
+
+@media (max-width: 769px) {
+
+	body {
+   padding-top: 249px;
+  }
+
+	.headline {
+		display: none;
+	}
+
+	.tagline {
+		font-size: 1em;
+	}
+
+	.logo {
+		width: 140px;
+		position: absolute;
+		top: -110px;
+		right: 64%;
+		z-index: 20;
+	}
+}
 
 @media (min-width: 769px) {
 
