@@ -194,6 +194,8 @@ img {
     font-size: 1.4em;
   }
 
+
+
 	/* ---- Float clearfix ---- */
 
 	.clearfix::after {
@@ -219,4 +221,12 @@ img {
     width: 30%;
   }
 
+}
+
+button {
+  color: tomato;
+  background: #172713;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
 }
