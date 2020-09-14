@@ -107,6 +107,15 @@ img {
 	position: relative;
 }
 
+.banner2 {
+	color: #f5f5b8;
+	background: #f5f5b8;
+	text-align: center;
+  padding: 1.2em 1.2em;
+  margin-bottom: 60px;
+	position: relative;
+}
+
 .col {
   padding-right: 1em;
   padding-left: 1em;
@@ -122,7 +131,7 @@ img {
 /* ---- Page Elements ---- */
 
 .logo {
-	width: 140px;
+	width: 100px;
 	position: absolute;
 	top: -30px;
 	right: 64%;
@@ -226,6 +235,14 @@ img {
 button {
   color: tomato;
   background: #172713;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+#skyfriHimmelButton {
+  color: #093a58;
+  background: #3C94FF;
   border: solid 1px;
   border-color: rgba(0, 0, 0, .1);
   cursor: pointer;
